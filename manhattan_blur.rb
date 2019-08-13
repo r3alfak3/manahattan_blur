@@ -62,8 +62,7 @@ image = Image.new([
   [1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1],
 ])
 
-puts "Blur Distance"
-pixels = gets.to_i
+pixels = 1
 puts "Test image: 1 in each corner, 1 at the side midpoints & 1 in the center"
 image.output_image
 puts
